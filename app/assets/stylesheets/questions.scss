@@ -6,4 +6,24 @@ $gray: #F4F4F4;
 
 body {
   background: $gray; // Using this variable
+  font-family: sans-serif
+}
+
+.main {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.dialog {
+  max-width: 400px;
+  border-left-style: solid;
+  border-color: grey;
+  border-width: 8px;
+  padding: 4px;
+  margin-bottom: 4px;
+  background-color: rgb(230, 230, 230);
+}
+
+.footer {
+  margin-top: 8px;
 }

@@ -1,10 +1,17 @@
-<div class="container">
-  <h1>VIEW DA ANSWER</h1>
-  <h2>STUPID COACH</h2>
+<div class="main">
+  <h2>COACHING SESSION</h2>
   
-  <p>A palavra digitada pelo usuário foi: <%= @answer %></p>
+  <div class="dialog">
+    <p>Coach, <%= @answer %></p>
+    <p> <em>- You</em></p>
+  </div>
   
-  <p>A resposta do coach foi: <%= @coach_response %></p>
+  <div class="dialog">
+    <p><%= @coach_response %></p>
+    <p> <em>- Your coach</em></p>
+  </div>
   
-  <%= link_to "Back to Ask page", ask_path %>
+  <div class="footer">
+    <%= link_to "Back to Ask Page", ask_path %>
+  </div>
 </div>
